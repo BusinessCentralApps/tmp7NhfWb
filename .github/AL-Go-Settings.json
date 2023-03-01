@@ -1,0 +1,8 @@
+{
+  "runs-on": "ubuntu-latest",
+  "MicrosoftTelemetryConnectionString": "",
+  "shell": "pwsh",
+  "templateUrl": "https://github.com/businesscentralapps/tmpecJf5r-PTE@main",
+  "type": "PTE",
+  "useProjectDependencies": true
+}

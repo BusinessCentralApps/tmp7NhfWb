@@ -1,0 +1,33 @@
+{
+  "id": "c0057748-94f5-42c0-a80c-3c1f1de353f3",
+  "name": "app3",
+  "version": "1.0.0.0",
+  "publisher": "MS Test",
+  "dependencies": [
+    {
+      "id": "b9b4df8c-8118-4a65-aa66-535f2812f32b",
+      "publisher": "MS Test",
+      "version": "1.0.0.0",
+      "name": "app1"
+    },
+    {
+      "id": "0abce3f4-5dfc-4297-a975-2b94380011af",
+      "publisher": "MS Test",
+      "version": "1.0.0.0",
+      "name": "app2"
+    }
+  ],
+  "application": "21.0.0.0",
+  "runtime": "10.0",
+  "idRanges": [
+    {
+      "to": 50003,
+      "from": 50003
+    }
+  ],
+  "resourceExposurePolicy": {
+    "includeSourceInSymbolFile": true,
+    "allowDebugging": true,
+    "allowDownloadingSource": true
+  }
+}
